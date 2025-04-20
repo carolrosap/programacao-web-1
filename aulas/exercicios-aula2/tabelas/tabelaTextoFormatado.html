@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela com Formatação de Texto</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h2>Tabela com Diferentes Formatações de Texto</h2>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Negrito e Itálico</th> <!-- Une duas colunas -->
+                <th rowspan="2">Sublinhado</th>
+                <th rowspan="2">Texto Pequeno</th>
+                <th rowspan="2">Texto Riscado</th>
+                <th rowspan="2">Texto Destacado</th>
+                <th rowspan="2">Subscrito e Sobrescrito</th> <!-- Mescla duas linhas -->
+            </tr>
+            <tr>
+                <th>Negrito</th>
+                <th>Itálico</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Texto em Negrito</b></td>
+                <td><i>Texto em Itálico</i></td>
+                <td><u>Texto Sublinhado</u></td>
+                <td><small>Texto Pequeno</small></td>
+                <td><del>Texto Riscado</del></td>
+                <td><mark>Texto Destacado</mark></td>
+                <td rowspan="2">H<sub>2</sub>O e X<sup>2</sup></td>
+            </tr>
+            <tr>
+                <td><strong>Outro Negrito</strong></td>
+                <td><em>Outro Itálico</em></td>
+                <td><ins>Outro Sublinhado</ins></td>
+                <td><small>Ainda Menor</small></td>
+                <td><del>Item Removido</del></td>
+                <td><mark>Importante</mark></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
