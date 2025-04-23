@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+.galeria {
+  display: flex;
+  gap: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 2px 2px 5px #aaa;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+}
