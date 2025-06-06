@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Usuários</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Lista de Usuários</h1>
+    <div id="user-list" class="user-list"></div>
+
+    <h2>Adicionar Usuário</h2>
+    <form id="add-user-form">
+      <label for="name">Nome:</label>
+      <input type="text" name="name" required /><br />
+      <label for="age">Idade:</label>
+      <input type="number" name="age" required /><br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" required /><br />
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <h2>Deletar Usuário</h2>
+    <form id="delete-user-form">
+      <label for="userId">ID do Usuário:</label>
+      <input type="number" name="userId" required /><br />
+      <button type="submit">Deletar</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
